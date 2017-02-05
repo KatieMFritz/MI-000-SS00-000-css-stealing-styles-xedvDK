@@ -11,14 +11,12 @@ h1 {
 button {
   display: block;
   margin: 20px auto;
-  color: #7795f8;
 }
 
 button {
   background-color: white;
   color: #7795f8;
   white-space: nowrap;
-  display: inline-block;
   height: 40px;
   line-height: 40px;
   padding: 0 14px;
