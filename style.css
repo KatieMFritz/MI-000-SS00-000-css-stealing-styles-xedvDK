@@ -12,3 +12,25 @@ button {
   display: block;
   margin: 20px auto;
 }
+
+/* Colors */
+
+.green {
+  color: #98c379;
+}
+
+.blue {
+  color: #56b6c2;
+}
+
+.yellow {
+  color: #c6ad00;
+}
+
+.purple {
+  color: #b400b9;
+}
+
+.red {
+  color: #c62d48;
+}
