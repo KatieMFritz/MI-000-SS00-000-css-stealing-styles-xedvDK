@@ -1,3 +1,4 @@
+/* set stuff up */
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -30,14 +31,13 @@ h1 {
   color: #c62d48;
 }
 
+/* Button styles */
 button {
   display: block;
   margin: 20px auto;
 }
 
-/* Button styles */
-
-button {
+button.stripe {
   background-color: white;
   color: #7795f8;
   white-space: nowrap;
@@ -54,15 +54,32 @@ button {
   transition: all 0.15s ease;
 }
 
-button:hover {
+button.stripe:hover {
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
-button:active {
+button.stripe:active {
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 /* Input styles */
+
+input {
+  width: 100%;
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d4dada;
+  border-radius: 3px;
+  box-shadow: none;
+  vertical-align: bottom;
+  overflow: visible;
+}
+
+input:focus {
+  border: 1px solid #07682c;
+  outline: 0;
+}
