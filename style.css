@@ -32,14 +32,20 @@ h1 {
 }
 
 /* Button styles */
-button {
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
   display: block;
   margin: 20px auto;
 }
 
-button.stripe {
+a.stripe {
   background-color: white;
   color: #7795f8;
+  display: block;
   white-space: nowrap;
   height: 40px;
   line-height: 40px;
@@ -52,14 +58,15 @@ button.stripe {
   letter-spacing: 0.025em;
   text-decoration: none;
   transition: all 0.15s ease;
+  outline: none;
 }
 
-button.stripe:hover {
+a.stripe:hover {
   transform: translateY(-1px);
   box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
 }
 
-button.stripe:active {
+a.stripe:active {
   background-color: #f6f9fc;
   transform: translateY(1px);
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
